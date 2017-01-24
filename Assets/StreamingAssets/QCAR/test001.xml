@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="marker5" size="55.000000 55.000000"/>
+        <ImageTarget name="marker4" size="55.000000 55.000000"/>
+        <ImageTarget name="marker3" size="55.000000 55.000000"/>
+        <ImageTarget name="marker2" size="55.000000 55.000000"/>
+        <ImageTarget name="marker1" size="55.000000 55.000000"/>
+        <ImageTarget name="marker6" size="55.000000 55.000000"/>
+        <ImageTarget name="vangogh" size="83.000000 106.273651"/>
+        <ImageTarget name="Aripiel_card" size="86.000000 122.908333"/>
+        <ImageTarget name="20161228_160813" size="120.000000 81.646492"/>
+        <ImageTarget name="IMG_0114" size="120.000000 94.556961"/>
+        <ImageTarget name="pok_mon_clear_file" size="297.000000 198.928131"/>
+        <ImageTarget name="stained_cuboid.Left" size="55.000000 55.000000"/>
+        <ImageTarget name="stained_cuboid.Bottom" size="55.000000 55.000000"/>
+        <ImageTarget name="stained_cuboid.Top" size="55.000000 55.000000"/>
+        <ImageTarget name="stained_cuboid.Front" size="55.000000 55.000000"/>
+        <ImageTarget name="stained_cuboid.Right" size="55.000000 55.000000"/>
+        <ImageTarget name="stained_cuboid.Back" size="55.000000 55.000000"/>
+        <ImageTarget name="Cuboid.Left" size="45.000000 45.000000"/>
+        <ImageTarget name="Cuboid.Bottom" size="45.000000 45.000000"/>
+        <ImageTarget name="Cuboid.Top" size="45.000000 45.000000"/>
+        <ImageTarget name="Cuboid.Front" size="45.000000 45.000000"/>
+        <ImageTarget name="Cuboid.Right" size="45.000000 45.000000"/>
+        <ImageTarget name="Cuboid.Back" size="45.000000 45.000000"/>
+        <MultiTarget name="stained_cuboid">
+            <Part name="stained_cuboid.Left" translation="-27.5 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="stained_cuboid.Right" translation="27.5 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="stained_cuboid.Front" translation="0 0 27.5" rotation="AD: 1 0 0 0"/>
+            <Part name="stained_cuboid.Back" translation="0 0 -27.5" rotation="AD: 0 1 0 180"/>
+            <Part name="stained_cuboid.Top" translation="0 27.5 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="stained_cuboid.Bottom" translation="0 -27.5 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="Cuboid">
+            <Part name="Cuboid.Left" translation="-22.5 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="Cuboid.Right" translation="22.5 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="Cuboid.Front" translation="0 0 22.5" rotation="AD: 1 0 0 0"/>
+            <Part name="Cuboid.Back" translation="0 0 -22.5" rotation="AD: 0 1 0 180"/>
+            <Part name="Cuboid.Top" translation="0 22.5 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="Cuboid.Bottom" translation="0 -22.5 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
