@@ -8,6 +8,7 @@ public class NewTestScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         GameObject.Find("ImageTarget_1");
+        GameObject.Find("ARCamera");
 	
 	}
 	
